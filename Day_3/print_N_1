@@ -1,0 +1,6 @@
+n=5
+def pnt(n):
+    if n>0:
+        print(n)
+        pnt(n-1)
+pnt(n)
