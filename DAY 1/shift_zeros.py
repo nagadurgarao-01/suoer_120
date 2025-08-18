@@ -5,3 +5,7 @@ for i in range(len(n)):
         n.remove(a)
         n.append(a)
 print(n)   
+
+# output
+ #1 0 1 0 1 02 3 0
+ #[1, 1, 1, 2, 3, 0, 0, 0]
