@@ -8,3 +8,11 @@ print(a)
  #acbd
  #2
 #bdac
+
+
+#left rotation
+a = input()
+n = int(input())
+n = n % len(a)
+a = a[n:] + a[:n]
+print(a)
